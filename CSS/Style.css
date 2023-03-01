@@ -1,0 +1,758 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Tilt Warp', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+  
+.central{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(120deg, rgba(177, 113, 41, 0.699) 0%, rgba(136, 72, 30, 0.692) 100%), url("/MULTIMEDIA/SATURNO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    padding-bottom:300px ;
+}
+h1{
+    font-size: 100px;
+    margin-top: 100px;
+    color: aliceblue;
+    font-family: 'Rampart One', cursive;
+
+}
+body{
+    background-color: #c5b28d;
+}
+h1:hover{
+    color: #3ebd99;
+    font-size: 120px;
+}
+.FULLALL{
+    display: none;
+}
+.menu nav a{
+      display: inline-block;
+    margin-top: 80px;
+    margin-left: 25px;
+    list-style: none;
+    color: rgb(217, 212, 212);
+    background-color: rgb(36, 43, 32);
+    padding: 10px 15px 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav a:hover{
+    color: #3ebd99;
+    background-color: rgb(234, 217, 193);
+}
+a:not(.active):hover{
+    background-color: rgb(57, 73, 73);
+    color: rgb(245, 233, 233);
+}
+.checkbtn{
+    font-size: 40px;
+    margin-top: 65px;
+    color: #f6f0e5;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    border: 5px #f6f0e5;
+    display: none;
+}
+#check{
+    display: none;
+}
+.titulos{
+    font-family: 'Rampart One', cursive;
+    color: #382200;
+    font-size: 70px;
+}
+.onda1{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: translate(0px,50px);
+}
+.parr{
+    color: rgb(224, 224, 224);
+    font-family: 'Tilt Warp', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+.parra{
+    color: rgb(224, 224, 224);
+    font-family: 'Tilt Warp', cursive;
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center;
+}
+.parr:hover{
+    color: rgb(145, 126, 64);
+    font-family: 'Tilt Warp', cursive;
+    font-size: 25px;
+    padding: 15px 15px 0px;
+}
+.parra:hover{
+    color: rgb(145, 126, 64);
+    font-family: 'Tilt Warp', cursive;
+    font-size: 20px;
+}
+.cont{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0px 0px 80px 0px;
+}
+.onda2{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transform: translate(0px, 3600px);
+
+}
+.onda3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transform: translate(0px, 14800px);
+
+    }
+
+.container-inicio{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 80px 0px 80px 0px;
+}
+.container-inicio, p, li, dl, dt{
+
+    line-height: 2;
+    text-align:justify ;
+    list-style:disc;
+
+}
+.container-inicio ul, li{
+list-style:square;
+}
+
+.sobre h2{
+    color: rgb(16, 16, 17);
+}
+
+.cardscontainer{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 100px 0 80px 40px;
+}
+
+.Hell{
+    margin: 15px 0 0 0 ;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Langar', cursive;
+
+}
+
+.Hell:hover{
+    color: rgb(65, 162, 68);
+    font-size: 40px;
+}
+.Hellg{
+    margin: 15px 0 0 0 ;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-family: 'Langar', cursive;
+    text-align: center;
+
+}
+
+.Hellg:hover{
+    color: rgb(65, 162, 68);
+    font-size: 50px;
+}
+.seguro{
+    background-color: #e4c673;
+
+}
+.contain{
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
+    padding: 80px 0 80px 0;
+}
+
+.sobre{
+    width: 80%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 0 80px 40px;
+    height: auto;
+}
+.sdocon{
+    background-color: #9b7131;
+height: auto;
+padding-bottom: 150px;
+width: 100%;
+
+}
+
+.contenedor-visitor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 80px 0 80px 0;
+    height: auto;
+    padding-bottom: 200px;
+    
+}
+.hi h2{
+    padding-top: 80px;
+}
+.hi p{
+    text-align: center;
+}
+.contenedor-visitor img {
+        width: 300px;
+        height: 400px;
+        padding: auto;
+        padding-left: 10px;
+        display: inline-block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+.hi{
+background-color: #9b7131;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.card{
+    background-color: rgba(226, 222, 222, 0);
+    height: 300px;
+    width: 30%;
+    margin: 15px 10px;
+    border: 1px solid rgba(201, 199, 199, 0);
+    display: inline-block;
+}
+.card h3{
+    width: 200px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.cards img{
+    width: 200px;
+    height: 250px;
+}
+.trabjador{
+    width: 30%;
+    display: inline-block;
+    height: auto;
+    align-items: center;
+    background-color: rgba(226, 222, 222, 0.365);
+    margin: 15px 15px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid rgb(201, 199, 199);
+    font-family: 'Roboto Serif', serif;
+
+
+}
+.trabjador img{
+    width: 200px;
+    height: 250px;
+}
+.pertol{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    padding: 80px 0 80px 0;
+    height: auto;
+    text-align: center;
+    }
+.perfil{
+    width: 200px;
+}
+.NuestrosServicios{
+    color: black;
+}
+
+
+footer{
+    background-color: #B9770E;
+    padding-bottom: 50px;
+    height: auto;
+    
+}
+.conta{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 100px 0 80px 0;
+}
+.sobre{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 100px 0 80px 0;
+}
+
+.slider{
+	width:1000px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+    margin-bottom:50px ;
+}
+
+.slider ol {
+	display: flex;
+	padding: 0;
+	width: 1000%;
+	
+	animation: slide 44s infinite alternate ease-in-out;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+
+}
+
+.slider img {
+	width: 1000px;
+    height: 400px;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	9% {margin-left: 0;}
+	
+	10% {margin-left: -100%;}
+	18% {margin-left: -100%;}
+	
+	19% {margin-left: -200%;}
+	27% {margin-left: -200%;}
+	
+	28% {margin-left: -300%;}
+	36% {margin-left: -300%;}
+
+    37% {margin-left: -400%;}
+	45% {margin-left: -400%;}
+
+    46% {margin-left: -500%;}
+	54% {margin-left: -500%;}
+
+    55% {margin-left: -600%;}
+	63% {margin-left: -600%;}
+
+    64% {margin-left: -700%;}
+	72% {margin-left: -700%;}
+
+    73% {margin-left: -800%;}
+	81% {margin-left: -800%;}
+
+    82% {margin-left: -900%;}
+	90% {margin-left: -900%;}
+
+    91% {margin-left: -1000%;}
+	100% {margin-left: -1000%;}
+
+}
+
+.title-g{
+    font-family: 'Rampart One', cursive;
+    padding: 25px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(234, 231, 228);
+}
+.input{
+    width: 90%;
+    margin: 10px;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    outline: none;
+    border: 1px  solid #c5bebe;
+    padding: 20px ;
+
+}
+
+.input::placeholder{
+    color: #fff;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 20px;
+}
+
+.btnsend{
+    background: transparent;
+    border: 0;
+    color: #fff;
+    outline: none;
+    border: 1px  solid #c5bebe;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin-left: 40%;
+}
+
+.btnsend:hover{
+    color: #382200;
+    background-color: rgb(160, 241, 214);
+}
+
+.btnsend{
+    background: transparent;
+    border: 0;
+    color: #fff;
+    outline: none;
+    border: 1px  solid #c5bebe;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin-left: 40%;
+}
+
+.btn{
+    background-color:#c5bebe;
+    border: 0;
+    color: #4d3b1a;
+    outline: none;
+    border: 1px  solid #c5bebe;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin-left: 40%;
+   margin-top: 100px;
+   text-decoration: none;
+   list-style: none;
+}
+
+.btn:hover{
+    color: #382200;
+    background-color: rgb(182, 240, 221);
+}
+
+
+.cent{
+    width: 100%;
+      height: 600px;
+      margin-top: 25px;
+  }
+.redes{
+    text-align: center;
+}
+.red h2{
+    display: inline-block;
+    padding: 15px;
+}
+@media screen and (max-width:1089px){
+    h1{
+        font-size: 80px;
+    }
+    h1:hover{
+        font-size: 80px;
+    }
+  
+  .onda1{
+    transform: translate(0px, -30px);
+  }
+  
+  .onda2{
+    transform: translate(0px, 3650px);
+  }
+  .onda3{
+    transform: translate(0px, 14300px);
+  }
+  .container-inicio{
+    width: 80%;
+  }
+  .sobre{
+    width: 72%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 100px 0 80px 0;
+}
+.cardscontainer{
+    width: 79%;
+}
+.titulos{
+        padding-left: 35px;
+        font-size: 60px;
+}
+.contain{
+    width: 100%;
+   padding: 80px 0 0 10px;
+}
+.contain h2{
+    padding-left: 90px;
+}
+.trabjador img{
+    width: 200px;
+    height: 200px;
+}
+
+.trabjador h3{
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.trabjador{
+    width: 25%;
+}
+
+.contenedor-visitor{
+    width: 80%;
+    
+}
+.hi h2{
+    padding-top: 80px;
+    padding-left: 90px;
+}
+.hi p{
+    text-align: center;
+}
+.contenedor-visitor img {
+        width: 250px;
+        height: 350px;
+}
+.hi{
+    padding-bottom: 0px;
+
+}
+
+.conta{
+    width: 80%;
+    padding: 100px 0 80px 40px;
+}
+.conta p{
+    padding-left: 10px;
+}
+  }
+
+@media screen and (max-width:952px){
+    nav a{
+            margin-top: 60px;
+            margin-left: 20px;
+        padding: 10px 15px 10px 15px;
+        font-size: 23px;
+    }
+.central{
+    padding-bottom: 150px;
+}
+  .onda1{
+    transform: translate(0px, -200px);
+  }
+  
+  .onda2{
+    transform: translate(0px, 3350px);
+  }
+  .onda3{
+    transform: translate(0px, 13900px);
+  }
+    .titulos{
+        font-size: 50px;
+    }
+    .slider img {
+        width: 970px;
+        height: 400px;
+    }
+
+.cent{
+    height: 400px;
+}
+.cardscontainer{
+    padding: 100px 0 80px 30px;
+}
+.hi h2{
+    padding-left: 0%;
+}
+.trabjador img{
+    width: 150px;
+    height: 200px;
+}
+  }
+  /*samsung*/
+  @media  screen and (max-width: 858px) {
+    h1{
+        font-size: 60px;
+    }
+    h1:hover{
+        font-size: 60px;
+    }
+.onda1{
+    display: none;
+}
+.onda2{
+    transform: translate(0px, 3700px);
+  }
+  .onda3{
+    transform: translate(0px, 19250px);
+  }
+    .central{
+        padding-bottom: 0;
+    }
+  .menu nav a{
+    width: 100%;
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0;
+    border-radius: 0px;
+    font-size: 20px;
+  }
+  .menu{
+    margin-top: 30px;
+  }
+  .card{
+    width: 40%;
+  margin-left: 50px;
+  }
+  .title-g{
+    font-size: 30px;
+  }
+  .input{
+    border-radius: 8px;
+  }
+
+  }
+  /*IPHONE-XR*/
+  @media  screen and (max-width: 414px) {
+    h1{
+        font-size: 30px;
+    }
+    h1:hover{
+        font-size: 30px;
+    }
+.onda1{
+    display: none;
+}
+.parr{
+    font-size: 12px;
+   
+}
+.parr:hover{
+    font-size: 12px;
+}
+.parra{
+    font-size: 12px;
+}
+.parra:hover{
+    font-size: 12px;
+    padding-top: 0%;
+}
+.onda2{
+    transform: translate(0px, 3800px);
+  }
+  .onda3{
+    transform: translate(0px, 31000px);
+  }
+    .central{
+        padding-bottom: 0;
+    }
+  .menu nav a{
+    width: 100%;
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0;
+    border-radius: 0px;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-left: 8px;
+  }
+  .menu{
+    margin-top: 30px;
+  }
+  .card{
+    width: 40%;
+  margin-left: 50px;
+  }
+  .title-g{
+    font-size: 25px;
+  }
+  .input{
+    border-radius: 8px;
+  }
+  .titulos{
+    font-size: 40px;
+    text-align: center;
+  }
+  .container-inicio h2{
+    padding-left: 0%;
+  }
+  .slider img {
+    width: 950px;
+    height: 200px;
+}
+.slider{
+    width: 800px;
+}
+.conta{
+    padding-left: 0px;
+}
+footer{
+    height: auto;
+}
+.cardscontainer{
+    padding-left: 10px;
+}
+.cardscontainer h2{
+    padding-left: 0;
+    font-size: 40px;
+}
+.sobre img{
+    height: 200px;
+}
+.sobre{
+    padding-bottom: 0;
+}
+.contain h2{
+    padding-left: 0;
+}
+.trabjador{
+    width: 50%;
+}
+.cont{
+    padding-bottom: 0;
+}
+.redes h2{
+font-size: 14px;}
+  }
